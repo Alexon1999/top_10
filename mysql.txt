@@ -1,0 +1,3 @@
+# command line
+mysql -uroot -palexon23
+mysql -ualexon -palexon23+

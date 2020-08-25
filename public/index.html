@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Web Scrapping | Top 10</title>
+  </head>
+  <body>
+    <h1>🔥 Click for one of the top's 🔥</h1>
+    <!-- <h1>Hello give me a url to start</h1> -->
+    <div class="heading"></div>
+
+    <div class="menu">
+      <button
+        class="btn btn-primary my-3"
+        onclick="outputHTML('Coding Channels')"
+      >
+        Coding Channels
+      </button>
+      <button class="btn btn-info my-3" onclick="outputHTML('top-10-series')">
+        top-10-series
+      </button>
+      <button class="btn btn-warning my-3" onclick="outputHTML('top-10-films')">
+        top-10-films
+      </button>
+      <button class="btn btn-danger my-3" onclick="outputHTML('top-10-news')">
+        top-10-news
+      </button>
+    </div>
+
+    <form>
+      <input type="text" name="url" placeholder="put a channel link ..." />
+      <button class="btn btn-secondary" type="submit">Enter</button>
+    </form>
+
+    <div class="parent">
+      <div class="container"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
